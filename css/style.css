@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+body{
+    font-family: 'Kanit', sans-serif;
+}
 .head{
     background-color: rgba(33, 31, 31, 0.98);
     display: flex;
@@ -9,7 +13,7 @@
 .hi3 img{
     width: 100px;
 }
-.image{
+.images1{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -28,7 +32,7 @@
     font-family: 'Material Symbols Outlined';
     font-weight: normal;
     font-style: normal;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1;
     letter-spacing: normal;
     text-transform: none;
@@ -42,22 +46,24 @@
 }
 .icon{
     display: flex;
-    gap: 10px;
-    justify-content: space-evenly;
+    gap: 20px;
     flex-wrap: wrap;
+    padding-top: 40px;
+    
 }
 .s1{
     color: white;
-    padding-bottom: 40px;
-    border-right: 1px solid white;
+    align-items: center;
+    padding-top: .3px;
     
 }
-.icons span{
-    /* border-right: 1px solid white;*/
-    padding:10px;
-    align-items: center;
-    justify-content: center;
+.icons1{
+   display: flex;
+   
+  
 }
+
+
 .lo img{
     width: 100px;
     height: 100%;
@@ -500,4 +506,126 @@ width: 100%;
 .aa{
     font-family: 'Cabin', sans-serif;
 font-family: 'Source Serif 4', serif;
+}
+.container4{
+    background-color:#0e3051 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.one img{
+    width: 100%;
+}
+.two h3{
+    color:#ffdf00 ;
+}
+.two{
+    padding: 10px 5px;
+}
+.three h3{
+    color: white;
+}
+.three{
+    padding: 10px 0px;
+}
+.four button{
+    background-color: #ffdf00;
+    border: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #0e3051;
+}
+.four{
+    padding: 20px;
+}
+.container5{
+    display: flex;
+    background-color: #ffdf00 ;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+.img21 img{
+    width: 100%;
+}
+.img21{
+    padding: 10px;
+}
+.h11{
+    color: #0e3051;
+    text-align: center;
+    padding: 30px;
+}
+.ser2 input{
+   padding: 10px 70px;
+   
+    border-radius:5px ;  
+    border: 1px solid black;
+    background-color: #ffdf00;     
+}
+.ser2 input::placeholder{
+    font-size: 10px;
+    text-align: left;
+}
+.ser2{
+    padding-top: 40px;
+}
+.sho{ 
+    padding-left: 60px;
+    padding-top: 80px;
+}
+.but4 button{
+    background-color:#0e3051 ;
+    color: white;
+    padding: 2% 7%;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px;
+}
+.but4{
+    text-align: center;
+}
+.container6{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.img31 img{
+    width: 60%;
+}
+.img32 img{
+    width: 35%;
+}
+.img33 img{
+    width: 25%;
+}
+.container7{
+    display: flex;
+    justify-content: space-between;
+}
+.subcon1{
+display: flex;
+width: 49%;
+}
+.subcon1 h3{
+padding-left: 40px;
+}
+.subcon2{
+width: 49%;
+}
+.img41{
+display: flex;
+
+}
+.one1 img{
+width: 200%;
+
+}
+.one1{
+padding: 10px;
+}
+.two2{
+padding-left:20px ;
 }
